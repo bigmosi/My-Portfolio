@@ -106,6 +106,8 @@ p {
 }
 
 .skill {
+  display: grid;
+  grid-template-columns: auto;
   align-items: center;
   background-image: url("assets/images/Ellipse.svg");
   background-repeat: no-repeat;
@@ -120,7 +122,8 @@ p {
 }
 
 .lang {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: space-between;
   margin: 0  15px 0 15px;
   color: #fff;
@@ -263,4 +266,9 @@ h4 {
 
 .btn:disabled {
   color: #7d73fc;
+}
+
+.email-link {
+  color: #fff;
+  text-decoration: none;
 }
