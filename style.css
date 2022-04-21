@@ -11,7 +11,17 @@ body {
   height: 700vh;
 }
 
-a {
+.logo {
+  position: static;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin: 25px 0 0 35px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.social__icons--link {
   position: static;
   font-size: 18px;
   color: #fff;
@@ -28,11 +38,12 @@ a {
   height: 80px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  margin-right: 25px;
 }
 
 .humbergure {
-  width: 50px;
-  height: 6px;
+  width: 60px;
+  height: 3px;
   background: #ffff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
@@ -42,14 +53,15 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
+  margin-top: 35px;
 }
 
 .humbergure::before,
 .humbergure::after {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 6px;
+  width: 60px;
+  height: 3px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
@@ -224,6 +236,9 @@ h4 {
 .background-image {
   background: url("assets/images/Ellipse1.svg");
   background-repeat: no-repeat;
+  background-position: 0 -50px;
+  padding-top: 25px;
+  background-position-y: top;
 }
 
 .background-image2 {

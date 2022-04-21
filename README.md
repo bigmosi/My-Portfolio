@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Hello-microverse
+> My Portfolio
 -It's project built using HTML and CSS to see how github flow works.
 
 ## Built With
@@ -40,15 +40,9 @@ Install your favorite Text Editor
 
 👤 **Kinyera Amos**
 
-- GitHub: [@githubhandle](https://github.com/bigmosi/)
-- Twitter: [@twitterhandle](https://twitter.com/kinyera_amos)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/kinyera-amos-026062218)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/kinyera_amos)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kinyera-amos-026062218)
+- GitHub: [@bigmosi](https://github.com/bigmosi/)
+- Twitter: [@kinyera_amos](https://twitter.com/kinyera_amos)
+- LinkedIn: [kinyera-amos-026062218](https://linkedin.com/in/kinyera-amos-026062218)
 
 ## 🤝 Contributing
 
