@@ -231,11 +231,6 @@ h4 {
   padding: 10px;
 }
 
-.email-link {
-  text-align: center;
-  margin-top: 10px;
-}
-
 .background-image {
   background: url("assets/images/Ellipse1.svg");
   background-repeat: no-repeat;
@@ -271,4 +266,6 @@ h4 {
 .email-link {
   color: #fff;
   text-decoration: none;
+  text-align: center;
+  margin-top: 10px
 }
