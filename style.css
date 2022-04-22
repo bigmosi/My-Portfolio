@@ -8,7 +8,7 @@
 
 body {
   background: #191765;
-  height: 700vh;
+  height: 600vh;
 }
 
 .logo {
@@ -209,8 +209,8 @@ h4 {
 }
 
 .btn {
-  width: 95px;
-  height: 55px;
+  width: 89px;
+  height: 48px;
   margin-left: 25px;
   margin-top: 20px;
   background: #7d73fc;
@@ -226,11 +226,6 @@ h4 {
   width: 80%;
   margin-top: 10px;
   padding: 10px;
-}
-
-.email-link {
-  text-align: center;
-  margin-top: 10px;
 }
 
 .background-image {
@@ -263,4 +258,11 @@ h4 {
 
 .btn:disabled {
   color: #7d73fc;
+}
+
+.email-link {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
 }
