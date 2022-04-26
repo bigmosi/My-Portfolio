@@ -213,8 +213,8 @@ h4 {
   height: 48px;
   margin-left: 25px;
   margin-top: 20px;
-  background: #fff;
-  color: #7d73fc;
+  background: #7d73fc;
+  color: #fff;
   font-size: 20px;
   font-weight: 500;
   border: 0;
@@ -256,15 +256,19 @@ textarea {
 }
 
 .btn:hover {
-  color: #7d73fc;
+  background-color: #7d73fc;
 }
 
 .btn:active {
-  color: #7d73fc;
+  background-color: #e5e5e5;
+}
+
+.btn:enabled {
+  background-color: #7d73fc;
 }
 
 .btn:disabled {
-  color: #7d73fc;
+  background-color: #000;
 }
 
 .email-link {
