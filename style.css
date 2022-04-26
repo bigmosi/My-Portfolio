@@ -304,9 +304,9 @@ textarea {
 }
 
 .btn-1:enabled {
-  background-color: #2a2b33;
+  background-color: #7d73fc;
 }
 
 .btn-1:disabled {
-  background-color: #000;
+  background-color: #2a2b33;
 }
