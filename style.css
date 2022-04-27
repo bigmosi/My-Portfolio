@@ -209,13 +209,16 @@ h4 {
 }
 
 .btn {
-  width: 89px;
+  width: 10rem;
   height: 48px;
   margin-left: 25px;
   margin-top: 20px;
   background: #7d73fc;
   color: #fff;
+  font-size: 20px;
+  font-weight: 500;
   border: 0;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .form-input {
@@ -226,6 +229,11 @@ h4 {
   width: 80%;
   margin-top: 10px;
   padding: 10px;
+}
+
+textarea {
+  width: 327px;
+  height: 170px;
 }
 
 .background-image {
@@ -249,15 +257,19 @@ h4 {
 }
 
 .btn:hover {
-  color: #7d73fc;
+  background-color: #7d73fc;
 }
 
 .btn:active {
-  color: #7d73fc;
+  background-color: #e5e5e5;
+}
+
+.btn:enabled {
+  background-color: #7d73fc;
 }
 
 .btn:disabled {
-  color: #7d73fc;
+  background-color: #000;
 }
 
 .email-link {
@@ -265,4 +277,36 @@ h4 {
   text-decoration: none;
   text-align: center;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.btn-1 {
+  width: 10rem;
+  height: 48px;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0;
+}
+
+.btn-1:hover {
+  background-color: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.btn-1:active {
+  background-color: #5e42d7;
+}
+
+.btn-1:enabled {
+  background-color: #7d73fc;
+}
+
+.btn-1:disabled {
+  background-color: #2a2b33;
 }
