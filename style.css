@@ -87,7 +87,7 @@ body {
 
 .heading {
   color: #fff;
-  font-size: 32px;
+  font-size: 40px;
   text-align: center;
   margin-top: 35px;
   font-family: Roboto, sans-serif;
@@ -171,14 +171,6 @@ li {
 h6 {
   color: #9490ff;
   font-size: 12px;
-}
-
-.heading {
-  color: #fff;
-  font-size: 40px;
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  margin-top: 50px;
 }
 
 h4 {
