@@ -9,7 +9,6 @@
 body {
   padding-top: 0;
   background: #191765;
-  height: 450vh;
 }
 
 .logo {
@@ -346,7 +345,7 @@ textarea {
 
   .main-container {
     background: #191765;
-    margin: -35px 170px 20px;
+    margin: -35px 170px;
   }
 
   .mobile_menu {
