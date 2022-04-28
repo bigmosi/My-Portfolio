@@ -137,7 +137,9 @@ ul {
 }
 
 .ski {
-  color: #5e42d7;
+  color: #9390ff;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
 }
 
 .social-media {
@@ -328,6 +330,15 @@ textarea {
   font-family: Roboto, sans-serif;
 }
 
+.chat {
+  font-size: 0;
+}
+
+.see-project {
+  text-align: center;
+}
+
+
 @media screen and (min-width: 992px) {
   body {
     background-color: lightgray;
@@ -345,8 +356,9 @@ textarea {
 
   .desktop-menu {
     display: flex;
-    width: 500px;
-    justify-content: center;
+    justify-content: right;
+    width: 50%;
+    margin-right: 20px;
   }
 
   .nav-link {
@@ -354,8 +366,11 @@ textarea {
     justify-content: space-between;
     list-style-type: none;
     text-decoration: none;
-    width: 40%;
-    padding-right: 10px;
+    padding: 10px;
+  }
+
+  .nav-link a {
+    margin-left: 20px;
   }
 
   a {
@@ -441,8 +456,6 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    padding-left: 300px;
-    background-size: contain;
   }
 
   .image-back {
@@ -469,14 +482,21 @@ textarea {
     text-align: left;
   }
 
+
+  .background-image2 h4 {
+    background-image: none;
+    text-align: left;
+    margin-left: 15px;
+  }
+
   .placeholder {
     text-align: right;
     margin-top: 50px;
   }
 
   .image {
-    width: 504px;
-    height: 348px;
+    width: 90%;
+    height: 80%;
   }
 
   .form-contact {
@@ -617,5 +637,26 @@ textarea {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 284px 504px;
+  }
+
+  .chat {
+    font-size: 40px;
+    text-align: center;
+    color: #9390ff;
+    margin-top: 40px;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .image1 {
+    width: 50%;
+    height: 90%;
+  }
+
+  .image3 {
+    width: 120%;
+    height: 90%;
   }
 }
