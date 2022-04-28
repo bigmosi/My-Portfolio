@@ -338,7 +338,6 @@ textarea {
   text-align: center;
 }
 
-
 @media screen and (min-width: 992px) {
   body {
     background-color: lightgray;
@@ -371,14 +370,12 @@ textarea {
 
   .nav-link a {
     margin-left: 20px;
-  }
-
-  a {
     text-decoration: none;
     color: #fff;
     font-family: Roboto, sans-serif;
     font-size: 15px;
   }
+
 
   .background-image .title {
     font-size: 90px;
@@ -481,7 +478,6 @@ textarea {
     background-image: none;
     text-align: left;
   }
-
 
   .background-image2 h4 {
     background-image: none;
