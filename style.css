@@ -26,12 +26,14 @@ body {
 }
 
 @keyframes rotate {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
+
   50% {
     transform: rotate(180deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -528,9 +530,10 @@ textarea {
     color: #fff;
   }
 
-  .form-text {
+  .form-text:hover {
     justify-content: center;
     flex-direction: column;
+    transform: translate(-30px, 50px);
   }
 
   .form-paragraph {
