@@ -21,6 +21,24 @@ body {
   font-weight: 500;
 }
 
+.logo:hover {
+  animation: rotate 1s linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .social__icons--link {
   position: static;
   font-size: 18px;
@@ -512,9 +530,10 @@ textarea {
     color: #fff;
   }
 
-  .form-text {
+  .form-text:hover {
     justify-content: center;
     flex-direction: column;
+    transform: translate(-30px, 50px);
   }
 
   .form-paragraph {
@@ -570,6 +589,22 @@ textarea {
     display: flex;
     justify-content: center;
     text-align: center;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes bounce {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
   }
 
   .recent-work {
@@ -652,12 +687,38 @@ textarea {
   }
 
   .image1 {
-    width: 50%;
-    height: 90%;
+    width: 40%;
+    height: 80%;
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+  .image1:hover {
+    width: 70%;
+    height: 70%;
+    transform: rotate(180deg);
   }
 
   .image3 {
-    width: 120%;
-    height: 90%;
+    width: 80%;
+    height: 50%;
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+  .image3:hover {
+    width: 150%;
+    height: 150%;
+    transform: rotate(180deg);
+  }
+
+  .link {
+    transition: all 0.5s ease-out;
+  }
+
+  .link:hover,
+  .link:focus {
+    background-color: #9390ff;
+    color: #333;
+    width: 15px;
+    height: 15px;
   }
 }
