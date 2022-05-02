@@ -168,6 +168,7 @@ ul {
   display: flex;
   text-align: center;
   justify-content: center;
+  height: 30px;
   margin-top: 100px;
 }
 
@@ -201,8 +202,9 @@ h4 {
 }
 
 .placeholder {
-  text-align: center;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .heading2 {
