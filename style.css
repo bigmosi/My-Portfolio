@@ -333,6 +333,35 @@ textarea {
   background-color: #2a2b33;
 }
 
+.btn-3 {
+  width: 10rem;
+  height: 48px;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0;
+}
+
+.btn-3:hover {
+  background-color: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.btn-3:active {
+  background-color: #5e42d7;
+}
+
+.btn-3:enabled {
+  background-color: #7d73fc;
+}
+
+.btn-3:disabled {
+  background-color: #2a2b33;
+}
+
 .desktop-menu {
   display: none;
 }
@@ -356,6 +385,10 @@ textarea {
 
 .see-project {
   text-align: center;
+}
+
+.input {
+  background: #fff;
 }
 
 @media screen and (min-width: 768px) {
