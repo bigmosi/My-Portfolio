@@ -260,6 +260,10 @@ textarea {
   background: #fff;
 }
 
+.textarea {
+  background: #fff;
+}
+
 .background-image {
   background: url("assets/images/Ellipse1.svg");
   background-repeat: no-repeat;
