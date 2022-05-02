@@ -215,6 +215,7 @@ h4 {
   display: flex;
   justify-content: center;
   margin-left: 15px;
+  margin-top: 15px;
 }
 
 .list li {
@@ -689,9 +690,6 @@ textarea {
   }
 
   .image1 {
-    width: 100%;
-    height: 100%;
-    border: 1px solid red;
     margin-right: 3rem;
     transition: width 2s, height 2s, transform 2s;
   }
