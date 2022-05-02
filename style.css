@@ -468,8 +468,7 @@ textarea {
   }
 
   .section-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     justify-content: center;
   }
 
@@ -485,6 +484,7 @@ textarea {
     flex-direction: row-reverse;
     padding: 0;
     justify-content: center;
+    margin-left: 4rem;
   }
 
   .background-image2 {
@@ -689,8 +689,10 @@ textarea {
   }
 
   .image1 {
-    width: 40%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    margin-right: 3rem;
     transition: width 2s, height 2s, transform 2s;
   }
 
