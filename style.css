@@ -262,6 +262,8 @@ textarea {
 
 .textarea {
   background: #fff;
+  width: 80%;
+  margin-top: 10px;
 }
 
 .background-image {
@@ -370,11 +372,6 @@ textarea {
 
 .desktop-menu {
   display: none;
-}
-
-.textarea {
-  width: 80%;
-  margin-top: 10px;
 }
 
 .recent-work {
