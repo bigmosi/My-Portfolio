@@ -718,11 +718,7 @@ textarea {
   }
 
   .heading {
-    font-size: 40px;
-    color: #fff;
-    text-align: center;
-    margin-top: 35px;
-    font-family: Roboto, sans-serif;
+    display: none;
   }
 
   .image1 {
