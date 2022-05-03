@@ -96,7 +96,7 @@ body {
 
 .title {
   color: #7d73fc;
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
   margin-top: 55px;
   font-family: Roboto, sans-serif;
@@ -104,7 +104,7 @@ body {
 
 .heading {
   color: #fff;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
   margin-top: 35px;
   font-family: Roboto, sans-serif;
@@ -262,6 +262,8 @@ textarea {
 
 .textarea {
   background: #fff;
+  width: 80%;
+  margin-top: 10px;
 }
 
 .background-image {
@@ -370,11 +372,6 @@ textarea {
 
 .desktop-menu {
   display: none;
-}
-
-.textarea {
-  width: 80%;
-  margin-top: 10px;
 }
 
 .recent-work {
@@ -629,7 +626,7 @@ textarea {
     text-align: center;
     animation-duration: 3s;
     animation-name: bounce;
-    animation-iteration-count: infinite;
+    animation-iteration-count: revert;
     animation-direction: alternate;
   }
 
@@ -721,7 +718,11 @@ textarea {
   }
 
   .heading {
-    display: none;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 35px;
+    font-family: Roboto, sans-serif;
   }
 
   .image1 {
