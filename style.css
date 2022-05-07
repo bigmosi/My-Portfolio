@@ -48,11 +48,9 @@ body {
 }
 
 .mobile_menu {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
   height: 80px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -70,8 +68,11 @@ body {
 
 .navbar {
   display: flex;
+  position: fixed;
   justify-content: space-between;
-  margin-top: 35px;
+  background: #191765;
+  width: 80%;
+  margin-top: 10px;
 }
 
 .humbergure::before,
@@ -92,6 +93,20 @@ body {
 
 .humbergure::after {
   transform: translateY(16px);
+}
+
+.menu-btn.open .humbergure {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-btn.open .humbergure::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .humbergure::after {
+  transform: rotate(-45deg) translate(35px, 35px);
 }
 
 .title {
@@ -205,6 +220,7 @@ h4 {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  width: auto;
 }
 
 .heading2 {
@@ -267,7 +283,7 @@ textarea {
 }
 
 .background-image {
-  background: url("assets/images/Ellipse1.svg");
+  background-image: url("assets/images/Ellipse1.svg");
   background-repeat: no-repeat;
   background-position: 0 -50px;
   padding-top: 25px;
@@ -275,12 +291,14 @@ textarea {
 }
 
 .background-image2 {
-  background: url("assets/images/Ellipse 19@2x.png");
+  background-image: url("assets/images/Ellipse 19@2x.png");
   background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 100% 60%;
 }
 
 .background-image3 {
-  background: url("assets/images/Ellipse22.svg");
+  background-image: url("assets/images/Ellipse22.svg");
   background-repeat: no-repeat;
   background-position: right;
   height: 100px;
@@ -371,7 +389,8 @@ textarea {
 }
 
 .desktop-menu {
-  display: none;
+  border: 1px solid red;
+  height: 100vh;
 }
 
 .recent-work {
@@ -388,6 +407,14 @@ textarea {
 
 .see-project {
   text-align: center;
+}
+
+.image1 {
+  width: 100%;
+}
+
+.toolbar {
+  border: 1px solid red;
 }
 
 @media screen and (min-width: 768px) {
@@ -754,5 +781,13 @@ textarea {
     color: #333;
     width: 15px;
     height: 15px;
+  }
+
+  .navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    margin-top: 35px;
+    background: #191765;
   }
 }

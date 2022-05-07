@@ -21,18 +21,20 @@
   <div class="main-container">
       <header class="navbar">
           <a href="" class="logo">Kinyera Amos</a>
-          <nav class="mobile_menu">
-              <div class="menu-btn">
-                  <div class="humbergure"></div>
-              </div>
-          </nav>
-          <nav class="desktop-menu">
-            <ul class="nav-link">
-                  <li><a href="#" class="link">Portfolio</a></li>
-                  <li><a href="#" class="link">About</a></li>
-                  <li><a href="#" class="link">Contact</a></li>
-              </ul>
-          </nav>
+          <div class="toolbar">
+              <nav class="mobile_menu" onclick="menuFunction()">
+                  <div class="menu-btn">
+                      <div class="humbergure"></div>
+                  </div>
+              </nav>
+              <nav class="desktop-menu" id="mobile-men">
+                  <ul class="nav-link">
+                      <li><a class="link" href="javascript:void(0);" onclick="menuOptions('#portfolio')">Portfolio</a></li>
+                      <li><a class="link" href="javascript:void(0);" onclick="menuOptions('#about')">About</a></li>
+                      <li><a class="link" href="javascript:void(0);" onclick="menuOptions('contact')">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
       </header>
       <div class="background-image-4">
           <section class="background-image">
@@ -274,5 +276,6 @@
           </div>
       </div>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
