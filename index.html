@@ -21,18 +21,27 @@
   <div class="main-container">
       <header class="navbar">
           <a href="" class="logo">Kinyera Amos</a>
-          <nav class="mobile_menu">
-              <div class="menu-btn">
-                  <div class="humbergure"></div>
+          <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+              <ul class="overlay-content">
+                 <li><a href="#" >Portfolio<i class="fa fa-angle-right"></i></a></li>
+                  <li><a href="#">About<i class="fa fa-angle-right"></i></a></li>
+                  <li><a href="#">Contact<i class="fa fa-angle-right"></i></a></li>
+              </ul>
+          </div>
+          <nav class="desktop-menu">
+              <a href="" class="logo-1">My Logo</a>
+              <div class="desktop-link-1">
+                  <ul class="nav-link" >
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
               </div>
           </nav>
-          <nav class="desktop-menu">
-            <ul class="nav-link">
-                  <li><a href="#" class="link">Portfolio</a></li>
-                  <li><a href="#" class="link">About</a></li>
-                  <li><a href="#" class="link">Contact</a></li>
-              </ul>
-          </nav>
+          <div class="span">
+              <span  onclick="openNav()">&#9776;</span>
+          </div>
       </header>
       <div class="background-image-4">
           <section class="background-image">
@@ -109,6 +118,9 @@
             </a>
             <a href="/" class="social__icons--link" target="_blank">
                 <i class="fab fa-twitter"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-facebook"></i>
             </a>
             <a href="/" class="social__icons--link" target="_blank">
                 <i class="fab fa-linkedin"></i>
@@ -263,6 +275,9 @@
                   <i class="fab fa-twitter"></i>
               </a>
               <a href="/" class="social__icons--link" target="_blank">
+                  <i class="fab fa-facebook"></i>
+              </a>
+              <a href="/" class="social__icons--link" target="_blank">
                   <i class="fab fa-linkedin"></i>
               </a>
               <a href="/" class="social__icons--link" target="_blank">
@@ -274,5 +289,6 @@
           </div>
       </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

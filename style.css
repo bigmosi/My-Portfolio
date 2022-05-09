@@ -21,8 +21,18 @@ body {
   font-weight: 500;
 }
 
-.logo:hover {
+.logo-1 {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.logo-1:hover {
   animation: rotate 1s linear;
+  text-decoration: none;
 }
 
 @keyframes rotate {
@@ -390,6 +400,101 @@ textarea {
   text-align: center;
 }
 
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #191765;
+  overflow-y: hidden;
+  transition: 0.5s;
+  background-image: url("assets/images/shape mobile menu-2.svg"), url("assets/images/shape mobile menu-1.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.desktop-link-1 a {
+  font-size: 0;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 28px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: deeppink;
+}
+
+.closebtn {
+  position: absolute;
+  color: #fff;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 7px;
+  font-size: 60px;
+}
+
+.span {
+  text-align: right;
+  width: 5rem;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+span {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  width: 4rem;
+  height: 30px;
+}
+
+.fa-angle-right {
+  float: right;
+  margin-right: 15px;
+  color: #acb7c3;
+  font-size: 20px;
+}
+
+.fa-facebook:hover {
+  color: rgb(0, 110, 255);
+}
+
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+
+.fa-instagram:hover {
+  color: rgb(255, 0, 191);
+}
+
+.fa-linkedin:hover {
+  color: rgb(255, 0, 191);
+}
+
+.fa-github:hover {
+  color: rgb(255, 123, 0);
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-color: lightgray;
@@ -407,9 +512,11 @@ textarea {
 
   .desktop-menu {
     display: flex;
-    justify-content: right;
-    width: 50%;
+    justify-content: space-between;
+    width: 100%;
     margin-right: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
   }
 
   .nav-link {
@@ -754,5 +861,37 @@ textarea {
     color: #333;
     width: 15px;
     height: 15px;
+  }
+
+  span {
+    display: none;
+  }
+
+  .navbar {
+    font-size: 20px;
+  }
+
+  .desktop-link-1 {
+    display: flex;
+    justify-content: right;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .desktop-link-1 a {
+    font-size: 15px;
+    margin: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar1 {
+    display: flex;
+    justify-content: space-between;
   }
 }
