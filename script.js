@@ -4,13 +4,6 @@ function openNav() {
 
 openNav();
 
-function menuOptions(param) {
-  window.location.href = param;
-  const links = document.getElementById('myNav');
-  links.style.display = 'none';
-}
-menuOptions();
-
 function closeNav() {
   document.getElementById('myNav').style.height = '0%';
 }
@@ -24,3 +17,11 @@ function display() {
 }
 
 btn.addEventListener('click', display);
+
+function menuOptions(param) {
+  window.location.href = param;
+  const links = document.getElementById('myNav');
+  links.style.display = 'none';
+}
+
+menuOptions();
