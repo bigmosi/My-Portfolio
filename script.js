@@ -5,3 +5,14 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+
+
+let btn = document.querySelector('#btn');
+
+function display() {
+    alert('It was click');
+}
+
+btn.addEventListener('click', display);
+
+
