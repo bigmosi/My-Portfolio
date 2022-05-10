@@ -18,10 +18,9 @@ function display() {
 
 btn.addEventListener('click', display);
 
-function menuOptions(param) {
+const menuOptions = (param) => {
   window.location.href = param;
   const links = document.getElementById('myNav');
   links.style.display = 'none';
 }
 
-menuOptions();
