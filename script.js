@@ -10,6 +10,8 @@ function menuOptions(param) {
   links.style.display = 'none';
 }
 
+menuOptions();
+
 function closeNav() {
   document.getElementById('myNav').style.height = '0%';
 }
