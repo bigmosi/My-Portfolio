@@ -24,3 +24,4 @@ const menuOptions = (param) => {
   links.style.display = 'none';
 }
 
+menuOptions()
