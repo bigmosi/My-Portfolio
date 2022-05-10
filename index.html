@@ -18,84 +18,93 @@
     <title>Kinyera's Portfolio Website</title>
 </head>
 <body>
-  <div class="main-container">
-      <header class="navbar">
-          <a href="" class="logo">Kinyera Amos</a>
-          <nav class="mobile_menu">
-              <div class="menu-btn">
-                  <div class="humbergure"></div>
-              </div>
-          </nav>
-          <nav class="desktop-menu">
-            <ul class="nav-link">
-                  <li><a href="#" class="link">Portfolio</a></li>
-                  <li><a href="#" class="link">About</a></li>
-                  <li><a href="#" class="link">Contact</a></li>
-              </ul>
-          </nav>
-      </header>
-      <div class="background-image-4">
-          <section class="background-image">
-              <h1 class="title">KINYERA AMOS</h1>
-              <h3 class="heading">Software Developer</h3>
-              <div class="main-lang">
-                  <p>
-                      I can help you build a product ,
-                      feature or website Look through
-                      some of my work and experience! If
-                      you like what you see and have a
-                      project you need coded,  don’t
-                      hestiate to contact me.
-                  </p>
-              </div>
-          </section>
-          <div class="horizontal-line-1">
-              <div class="horizontal-1"></div>
-          </div>
-          <div class="background-image-right">
-          <div class="main-lang">
-              <section class="skill">
-                  <div class="skill-title">
-                      <h6>Language</h6>
-                      <h6>Frameworks</h6>
-                  </div>
-                  <div class="main-lang-1">
-                      <div class="lang">
-                          <ul>
-                              <li>JavaScript</li>
-                              <li>Ruby</li>
-                              <li>Html</li>
-                              <li>Css</li>
-                          </ul>
-                          <ul>
-                              <li>
-                                  Bootstrap
-                              </li>
-                              <li>Ruby on Rails</li>
-                              <li>RSPec</li>
-                              <li>CapyBara</li>
-                              <li>Selenium</li>
-                          </ul>
-                      </div>
-                      <div class="knowledge">
-                          <h3 class="ski">Skills</h3>
-                          <ul>
-                              <li>Codekit</li>
-                              <li>GitHub</li>
-                              <li>Codepen</li>
-                              <li>Gitlab</li>
-                              <li>Terminal</li>
-                          </ul>
-                      </div>
-                  </div>
-              </section>
-          </div>
-          </div>
-      </div>
-      <div class="horizontal-line-1">
-          <div class="horizontal-1"></div>
-      </div>
-      <div class="image-arrow-1">
+<div class="main-container">
+    <header class="navbar">
+        <a href="" class="logo">Kinyera Amos</a>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="overlay-content">
+                <li><a   href="javascript:void(0);" onclick="menuOptions('#about')" >Portfolio<i class="fa fa-angle-right"></i></a></li>
+                <li><a href="javascript:void(0);" onclick="menuOptions('#contact-info')">About<i class="fa fa-angle-right"></i></a></li>
+                <li><a href="javascript:void(0);" onclick="menuOptions('#contact-us')">Contact<i class="fa fa-angle-right"></i></a></li>
+            </ul>
+        </div>
+        <div class="span">
+            <span  onclick="openNav()">&#9776;</span>
+        </div>
+        <nav class="desktop-menu">
+            <a href="" class="logo-1">My Logo</a>
+            <div class="desktop-link-1">
+                <ul class="nav-link" >
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="javascript:void(0);" onclick="menuOptions('#contact-us')">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="background-image-4">
+        <section class="background-image">
+            <h1 class="title">KINYERA AMOS</h1>
+            <h3 id="head-1" class="heading">Software Developer</h3>
+            <div class="main-lang">
+                <p>
+                    I can help you build a product ,
+                    feature or website Look through
+                    some of my work and experience! If
+                    you like what you see and have a
+                    project you need coded,  don’t
+                    hestiate to contact me.
+                </p>
+            </div>
+        </section>
+        <div class="horizontal-line-1">
+            <div class="horizontal-1"></div>
+        </div>
+        <div class="background-image-right">
+            <div class="main-lang">
+                <section class="skill">
+                    <div class="skill-title">
+                        <h6>Language</h6>
+                        <h6>Frameworks</h6>
+                    </div>
+                    <div class="main-lang-1">
+                        <div class="lang">
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Ruby</li>
+                                <li>Html</li>
+                                <li>Css</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Bootstrap
+                                </li>
+                                <li>Ruby on Rails</li>
+                                <li>RSPec</li>
+                                <li>CapyBara</li>
+                                <li>Selenium</li>
+                            </ul>
+                        </div>
+                        <div class="knowledge">
+                            <h3 class="ski">Skills</h3>
+                            <ul>
+                                <li>Codekit</li>
+                                <li>GitHub</li>
+                                <li>Codepen</li>
+                                <li>Gitlab</li>
+                                <li>Terminal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-line-1">
+        <div class="horizontal-1"></div>
+    </div>
+    <div class="image-arrow-1">
         <div class="image-arrow">
             <img src="assets/images/arrow-down.svg" alt="" />
             <h3 class="work">Work</h3>
@@ -111,6 +120,9 @@
                 <i class="fab fa-twitter"></i>
             </a>
             <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a href="/" class="social__icons--link" target="_blank">
@@ -118,161 +130,164 @@
             </a>
         </div>
         <div class="image-arrow-2">
-              <img src="assets/images/arrow-down.svg" alt="" />
-              <h3 class="work">Work</h3>
+            <img src="assets/images/arrow-down.svg" alt="" />
+            <h3 class="work">Work</h3>
         </div>
-      </div>
-      <div class="recent-work-1">
-          <h2 class="recent-work">MY RECENT WORK</h2>
-      </div>
-      <div class="horizontal-line">
-          <div class="horizontal"></div>
-      </div>
-      <div class="section-1 image-back">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
+    </div>
+    <div class="recent-work-1">
+        <h2 class="recent-work">MY RECENT WORK</h2>
+    </div>
+    <div class="horizontal-line">
+        <div class="horizontal"></div>
+    </div>
+    <div class="section-1 image-back">
+        <div class="placeholder">
+            <img src="assets/images/placeholder.png" class="image1" alt="">
+        </div>
+        <div class="background-image2">
+            <h4>Multi-Post Stories</h4>
+            <div>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+            </div>
 
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-1" type="button">See Project</button>
-          </div>
-      </div>
-      <div class="section-2 image-left">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
+            <div>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li class="ruby">Ruby</li>
+                </ul>
+            </div>
+            <button class="btn-1" type="button">See Project</button>
+        </div>
+    </div>
+    <div class="section-2 image-left" id="contact-info">
+        <div class="placeholder">
+            <img src="assets/images/placeholder.png" class="image1" alt="">
+        </div>
+        <div class="background-image2">
+            <h4>Multi-Post Stories</h4>
+            <div>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+            </div>
 
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-3" type="button">See Project</button>
-          </div>
-      </div>
-      <div class="section-1 image-7">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
+            <div>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li class="ruby">Ruby</li>
+                </ul>
+            </div>
+            <button id="btn" class="btn-3" type="button">See Project</button>
+        </div>
+    </div>
+    <div class="section-1 image-7">
+        <div class="placeholder">
+            <img src="assets/images/placeholder.png" class="image1" alt="">
+        </div>
+        <div class="background-image2">
+            <h4>Multi-Post Stories</h4>
+            <div>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+            </div>
 
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-3" type="button">See Project</button>
-          </div>
-      </div>
-      <div class="section-2 image-10">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
+            <div>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li class="ruby">Ruby</li>
+                </ul>
+            </div>
+            <button class="btn-3" type="button">See Project</button>
+        </div>
+    </div>
+    <div class="section-2 image-10">
+        <div class="placeholder">
+            <img src="assets/images/placeholder.png" class="image1" alt="">
+        </div>
+        <div class="background-image2">
+            <h4>Multi-Post Stories</h4>
+            <div>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+            </div>
 
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-3" type="button">See Project</button>
-          </div>
-      </div>
+            <div>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li class="ruby">Ruby</li>
+                </ul>
+            </div>
+            <button class="btn-3" type="button">See Project</button>
+        </div>
+    </div>
 
-      <!--Contact form-->
+    <!--Contact form-->
 
-      <div class="form-contact">
-          <div>
-              <h2 class="heading">CONTACT US</h2>
-              <h2 class="chat">Let's chat!</h2>
-              <form class="form-text" action="https://formspree.io/f/mnqwdwzl" method="POST">
-                  <div>
-                      <div class="form-paragraph">
-                          <p>
-                              If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
-                          </p>
-                      </div>
-                      <div class="form-input">
-                          <label for="fullname"></label>
-                          <input type="text" name="fullname" id="fullname" placeholder="Text Input" required class="input" maxlength="30">
-                          <label for="email"></label>
-                          <input type="email" name="email" id="email" placeholder="example@gmail.com" required class="input">
-                          <label for="textarea"></label>
-                          <textarea rows="3" cols="30" id="textarea" placeholder="Enter text here" required maxlength="500" class="textarea"></textarea>
-                      </div>
-                      <div class="see-project">
-                          <button class="btn-1">See Project</button>
-                      </div>
-                  </div>
-              </form>
-
-          </div>
-      </div>
-      <!--Social media-->
-      <div class="footer">
-          <div class="social-media">
-              <a href="/" class="social__icons--link" target="_blank">
-                  <i class="fab fa-arrows"></i>
-              </a>
-              <a href="/" class="social__icons--link" target="_blank">
-                  <i class="fab fa-instagram"></i>
-              </a>
-              <a href="/" class="social__icons--link" target="_blank">
-                  <i class="fab fa-twitter"></i>
-              </a>
-              <a href="/" class="social__icons--link" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="/" class="social__icons--link" target="_blank">
-                  <i class="fab fa-github"></i>
-              </a>
-          </div>
-          <div>
-              <a href="#" class="email-link">kinyeramo@gmail.com</a>
-          </div>
-      </div>
-  </div>
+    <div class="form-contact">
+        <div>
+            <h2 class="heading" id="contact-us">CONTACT US</h2>
+            <h2 class="chat">Let's chat!</h2>
+            <form class="form-text" action="https://formspree.io/f/mnqwdwzl" method="POST">
+                <div>
+                    <div class="form-paragraph">
+                        <p>
+                            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+                        </p>
+                    </div>
+                    <div class="form-input">
+                        <label for="fullname"></label>
+                        <input type="text" name="fullname" id="fullname" placeholder="Text Input" required class="input" maxlength="30">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required class="input">
+                        <label for="textarea"></label>
+                        <textarea rows="3" cols="30" id="textarea" placeholder="Enter text here" required maxlength="500" class="textarea"></textarea>
+                    </div>
+                    <div class="see-project">
+                        <button type="button" class="btn-1">See Project</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Social media-->
+    <div class="footer">
+        <div class="social-media">
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-arrows"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="/" class="social__icons--link" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <div>
+            <a href="#" class="email-link">kinyeramo@gmail.com</a>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
