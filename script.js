@@ -15,5 +15,3 @@ function display() {
 }
 
 btn.addEventListener('click', display);
-
-
