@@ -410,7 +410,7 @@ textarea {
   background-color: #191765;
   overflow-y: hidden;
   transition: 0.5s;
-  background-image: url("assets/images/shape mobile menu-2.svg"), url("assets/images/shape mobile menu-1.svg");
+  background-image: url("assets/images/shape mobile menu-2.svg"), url("assets/images/Ellipse22.svg");
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
 }
