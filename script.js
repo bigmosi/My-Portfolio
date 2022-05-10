@@ -8,6 +8,8 @@ function closeNav() {
   document.getElementById('myNav').style.height = '0%';
 }
 
+closeNav();
+
 const btn = document.querySelector('#btn');
 
 function display() {
