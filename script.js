@@ -8,6 +8,10 @@ function closeNav() {
   document.getElementById('myNav').style.height = '0%';
 }
 
+function closeNavs() {
+  document.getElementById('head-1').style.height = '0%';
+}
+
 closeNav();
 
 const btn = document.querySelector('#btn');
@@ -17,3 +21,9 @@ function display() {
 }
 
 btn.addEventListener('click', display);
+
+function menuOptions(param) {
+  window.location.href = param;
+  const links = document.getElementById('myNav');
+  links.style.display = 'none';
+}
