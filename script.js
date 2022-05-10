@@ -24,4 +24,3 @@ function menuOptions(param) {
   links.style.display = 'none';
 }
 
-menuOptions();
