@@ -9,8 +9,7 @@ function menuOptions(param) {
   const links = document.getElementById('myNav');
   links.style.display = 'none';
 }
-
-  menuOptions();
+menuOptions();
 
 function closeNav() {
   document.getElementById('myNav').style.height = '0%';
