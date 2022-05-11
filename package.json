@@ -2,7 +2,10 @@
   "name": "portfoli-mobile-view",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +21,7 @@
   },
   "homepage": "https://github.com/bigmosi/Portfoli-mobile-view#readme",
   "devDependencies": {
-    "hint": "^6.1.11",
+    "hint": "^6.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
