@@ -497,6 +497,24 @@ span {
   color: rgb(255, 123, 0);
 }
 
+#email {
+  width: 80%;
+  height: 2.5rem;
+  margin-top: 5px;
+}
+
+.error-message {
+  text-align: center;
+  margin: 5px;
+}
+
+.error-text {
+  color: #fff;
+  font-size: 15px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-color: lightgray;
@@ -895,5 +913,19 @@ span {
   .navbar1 {
     display: flex;
     justify-content: space-between;
+  }
+
+  #email {
+    width: 50%;
+    margin-top: 5px;
+  }
+
+  .error-message {
+    margin-top: 10px;
+  }
+
+  .error-text {
+    color: deeppink;
+    font-size: 18px;
   }
 }
