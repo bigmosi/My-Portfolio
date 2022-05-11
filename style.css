@@ -918,6 +918,7 @@ span {
   #email {
     width: 50%;
     margin-top: 5px;
+    background: #fff;
   }
 
   .error-message {
