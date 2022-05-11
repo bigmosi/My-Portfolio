@@ -18,10 +18,10 @@ function display() {
 
 btn.addEventListener('click', display);
 
-/* eslint-disable */
 function menuOptions(param) {
   window.location.href = param;
   const links = document.getElementById('myNav');
-  closeNav();
+  links.style.display = 'none';
 }
 
+menuOptions();
