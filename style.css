@@ -308,10 +308,6 @@ textarea {
   background-color: #7d73fc;
 }
 
-.btn:disabled {
-  background-color: #000;
-}
-
 .email-link {
   color: #fff;
   text-decoration: none;
