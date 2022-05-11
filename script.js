@@ -1,14 +1,16 @@
 function openNav() {
     document.getElementById('myNav').style.height = '100%';
+    console.log("open")``
 }
 
-openNav();
+// openNav();
 
 function closeNav() {
     document.getElementById('myNav').style.height = '0%';
+    console.log("close")
 }
 
-closeNav();
+// closeNav();
 
 const btn = document.querySelector('#btn');
 
@@ -21,5 +23,5 @@ btn.addEventListener('click', display);
 function menuOptions(param) {
     window.location.href = param;
     const links = document.getElementById('myNav');
-    links.style.display = 'none';
+    closeNav();
 }
