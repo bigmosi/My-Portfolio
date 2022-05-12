@@ -1,20 +1,20 @@
 // formData object
 let formData = {
-    fullname: '',
-    email: '',
-    description: '',
+  fullname: '',
+  email: '',
+  description: '',
 };
 // retrieving the local storage
 if (localStorage.getItem('formData') !== null) {
-    const data = localStorage.getItem('formData');
-    formData = JSON.parse(data);
+  const data = localStorage.getItem('formData');
+  formData = JSON.parse(data);
 }
 
 // getting form input fields and textarea
 const formElements = document.querySelectorAll('input, textarea');
 // looping through the elements
 formElements.forEach((element) => {
-    // displaying the formData values to input fields
+  // displaying the formData values to input fields
   element.value = formData[element.name];
   // applying input event listener on elements
   element.addEventListener('input', (e) => {
