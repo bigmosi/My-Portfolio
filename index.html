@@ -238,7 +238,7 @@
           <div>
               <h2 class="heading">CONTACT US</h2>
               <h2 class="chat">Let's chat!</h2>
-                      <form class="form-text" action="https://formspree.io/f/mnqwdwzl" method="POST">
+                      <form class="form-text" action="https://formspree.io/f/mnqwdwzl" method="POST" onchange="saveUserDetails()" autocomplete="on">
                           <div>
                           <div class="form-paragraph">
                               <p>
@@ -251,7 +251,7 @@
                           <label for="email"></label>
                           <input type="email" name="email" id="email"  placeholder="example@gmail.com" required class="input">
                           <label for="textarea"></label>
-                          <textarea rows="3" cols="30" id="textarea" placeholder="Enter text here" required maxlength="500" class="textarea"></textarea>
+                          <textarea rows="3" cols="30" id="textarea" name="description" placeholder="Enter text here" required maxlength="500" class="textarea"></textarea>
                       </div>
                       <div class="error-message">
                           <small class="error-text" aria-live="polite"></small>
@@ -262,6 +262,7 @@
                       </div>
                   </div>
               </form>
+          </div>
       </div>
               <!--Social media-->
       <div class="footer">
@@ -290,6 +291,7 @@
           </div>
       </div>
   </div>
+      <script src="localstorage.js"></script>
   <script src="script.js"></script>
   </div>
 </body>
