@@ -40,3 +40,22 @@ function showMessage(input, message, type) {
   return type;
 }
 
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
+
+function validateEmail(input, invalidLowercase) {
+  if (input.value === input.value.toLowerCase()) {
+    return true;
+  }
+  return showError(input, invalidLowercase);
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
+  if (emailValid) {
+    form.submit();
+  }
+});
+
