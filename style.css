@@ -112,10 +112,6 @@ body {
   width: 80vw;
 }
 
-.popup-btn {
-  margin-top: -3px;
-}
-
 .title {
   color: #7d73fc;
   font-size: 48px;
@@ -618,6 +614,7 @@ span {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: -3px;
 }
 
 .see-live {

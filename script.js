@@ -10,10 +10,6 @@ function closeNav() {
 
 closeNav();
 
-const btn = document.querySelector('#btn');
-
-
-
 /* eslint-disable */
 
 function menuOptions(param) {
@@ -21,7 +17,6 @@ function menuOptions(param) {
   const links = document.getElementById('myNav');
   closeNav();
 }
-
 
 // form validation
 const form = document.querySelector('.form-text');
