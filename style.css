@@ -207,6 +207,11 @@ ul {
   font-size: 30px;
 }
 
+#pargaraph {
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .close-pop-up {
   text-align: right;
 }
@@ -218,7 +223,12 @@ ul {
   position: fixed;
   z-index: 2;
   border: 1px solid #fff;
-  margin-top: -1000px;
+  height: 100%;
+  margin-bottom: 200vh;
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top: -50px;
+  padding: 0;
 }
 
 .see-more {
@@ -310,7 +320,7 @@ h4 {
 }
 
 .list-1 {
-  margin-top: 50px;
+  margin-top: -25px;
 }
 
 .list li {
@@ -630,7 +640,7 @@ span {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: -3px;
+  margin-top: -13px;
 }
 
 .see-live {
@@ -1098,10 +1108,11 @@ span {
     visibility: hidden;
     background: #191765;
     width: 50%;
-    height: 100%;
+    height: 70%;
     position: fixed;
     z-index: 2;
     border: 1px solid #fff;
+    margin-top: 20%;
   }
 
   .btn-4 {
