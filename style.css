@@ -11,6 +11,10 @@ body {
   background: #191765;
 }
 
+.main-container {
+  background: #191765;
+}
+
 .logo {
   position: static;
   font-size: 18px;
@@ -104,6 +108,14 @@ body {
   transform: translateY(16px);
 }
 
+#popup-images {
+  width: 80vw;
+}
+
+.popup-btn {
+  margin-top: -3px;
+}
+
 .title {
   color: #7d73fc;
   font-size: 48px;
@@ -174,6 +186,53 @@ ul {
   justify-content: center;
 }
 
+.center-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 900px;
+  height: 90%;
+}
+
+#image-white {
+  margin-top: -50px;
+}
+
+#title-1 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.close-pop-up {
+  text-align: right;
+}
+
+#popping {
+  visibility: hidden;
+  background: #191765;
+  width: 80%;
+  position: fixed;
+  z-index: 2;
+  border: 1px solid #fff;
+  margin-top: -1000px;
+}
+
+#popup-content {
+  margin-top: -30px;
+}
+
+#close-pop-up {
+  font-size: 40px;
+  color: #fff;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.image-white {
+  text-align: center;
+  width: 50%;
+}
+
 .image-arrow {
   display: flex;
   text-align: center;
@@ -184,6 +243,16 @@ ul {
 
 .image-arrow-2 {
   display: none;
+}
+
+.btn-4 {
+  background: #5e42d7;
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  margin-left: 15px;
 }
 
 .work {
@@ -226,6 +295,10 @@ h4 {
   justify-content: center;
   margin-left: 15px;
   margin-top: 15px;
+}
+
+.list-1 {
+  margin-top: 50px;
 }
 
 .list li {
@@ -444,7 +517,6 @@ textarea {
 }
 
 .closebtn {
-  position: absolute;
   color: #fff;
 }
 
@@ -515,15 +587,63 @@ span {
   font-family: Roboto, sans-serif;
 }
 
+.popup-window {
+  position: fixed;
+  height: 70%;
+  overflow-x: hidden;
+  width: 70%;
+  margin-top: 450px;
+}
+
+.image-b {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-image {
+  margin-top: 40px;
+  margin-right: 10px;
+  width: 90%;
+}
+
+.popup-close {
+  text-align: right;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 18px;
+}
+
+.popup-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.see-live {
+  background: #5e42d7;
+  width: 60px;
+  height: 30px;
+  border: none;
+  color: #fff;
+}
+
+.see-source {
+  background: #5e42d7;
+  width: 60px;
+  height: 30px;
+  border: none;
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 768px) {
   body {
-    background-color: lightgray;
     height: 100%;
   }
 
   .main-container {
     background: #191765;
-    margin: -35px 170px;
+    width: 100%;
   }
 
   .mobile_menu {
@@ -553,6 +673,11 @@ span {
     color: #fff;
     font-family: Roboto, sans-serif;
     font-size: 15px;
+  }
+
+  #popup-images {
+    width: 40%;
+    height: 80%;
   }
 
   .background-image .title {
@@ -591,6 +716,21 @@ span {
   .input {
     height: 48px;
     width: 50%;
+  }
+
+  .popup-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .see-live {
+    background: #5e42d7;
+    margin-left: 100px;
+  }
+
+  .see-source {
+    background: #5e42d7;
   }
 
   .textarea {
@@ -794,7 +934,7 @@ span {
     border: 1px solid #646369;
   }
 
-  .horizontal-1 {
+  .horizontalhtml-1 {
     margin-top: 40px;
     width: 350px;
     margin-left: 38px;
@@ -807,6 +947,7 @@ span {
     background-repeat: no-repeat;
     background-size: 184px 184px;
     background-position: left;
+    margin-top: -500px;
   }
 
   .background-image-right {
@@ -928,5 +1069,60 @@ span {
   .error-text {
     color: deeppink;
     font-size: 18px;
+  }
+
+  .modal {
+    height: 90%;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .popup-window {
+    display: none;
+  }
+
+  #popping {
+    visibility: hidden;
+    background: #191765;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    border: 1px solid #fff;
+  }
+
+  .btn-4 {
+    background: #5e42d7;
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    margin-left: 15px;
+  }
+
+  .close-pop-up {
+    text-align: right;
+  }
+
+  #close-pop-up {
+    font-size: 40px;
+    color: #fff;
+    margin-right: 18px;
+    cursor: pointer;
+  }
+
+  .image-white {
+    position: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .see-more {
+    background: #5e42d7;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 100px;
   }
 }
