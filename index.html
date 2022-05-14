@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Kinyera's Portfolio Website</title>
 </head>
-<body>
+<body id="body">
   <div class="main-container">
       <header class="navbar">
           <a href="" class="logo">Kinyera Amos</a>
@@ -43,6 +43,34 @@
               </div>
           </nav>
       </header>
+  <div class="">
+      <div id="popping">
+          <div class="close-pop-up">
+              <a id="close-pop-up">&times;</a>
+          </div>
+          <div class="image-white">
+              <img src="assets/images/phone.png" id="popup-images" alt="">
+          </div>
+          <div>
+              <h4 id="title-1"></h4>
+          </div>
+          <div id="popup-content">
+              <p id="pargaraph"></p>
+          </div>
+          <div>
+              <ul class="list list-1">
+                  <li class="tech"><li>
+                  <li class="tech1"></li>
+                  <li class="tech2"></li>
+              </ul>
+          </div>
+          <div class="popup-btn">
+              <button type="button" class="btn-4">See live</button>
+              <button  type="button" class="btn-4">See source</button>
+          </div>
+      </div>
+  </div>
+<!--      <div class="popup"></div>-->
       <div class="background-image-4">
           <section class="background-image">
               <h1 class="title">KINYERA AMOS</h1>
@@ -134,104 +162,18 @@
               <h3 class="work">Work</h3>
         </div>
       </div>
+      <div class="popup"></div>
+      <section id="myModal" class="modal modal-hide">
+      </section>
       <div class="recent-work-1">
           <h2 class="recent-work">MY RECENT WORK</h2>
       </div>
       <div class="horizontal-line">
           <div class="horizontal"></div>
       </div>
-      <div class="section-1 image-back">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
 
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-1" type="button">See Project</button>
-          </div>
-      </div>
-      <div class="section-2 image-left" id="contact-info">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
 
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button id="btn" class="btn-3" type="button">See Project</button>
-          </div>
-      </div>
-      <div class="section-1 image-7">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
-
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-3" type="button">See Project</button>
-          </div>
-      </div>
-      <div class="section-2 image-10">
-          <div class="placeholder">
-              <img src="assets/images/placeholder.png" class="image1" alt="">
-          </div>
-          <div class="background-image2">
-              <h4>Multi-Post Stories</h4>
-              <div>
-                  <p>
-                      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                  </p>
-              </div>
-
-              <div>
-                  <ul class="list">
-                      <li>css</li>
-                      <li>html</li>
-                      <li>bootstrap</li>
-                      <li class="ruby">Ruby</li>
-                  </ul>
-              </div>
-              <button class="btn-3" type="button">See Project</button>
-          </div>
-      </div>
+      <div id="project_container"></div>
 
       <!--Contact form-->
       <div id="contact-us" class="form-contact">
