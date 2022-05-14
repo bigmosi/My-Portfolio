@@ -213,6 +213,14 @@ ul {
   margin-top: -1000px;
 }
 
+.see-more {
+  background: #5e42d7;
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+}
+
 #popup-content {
   margin-top: -30px;
 }
