@@ -826,6 +826,7 @@ span {
   .placeholder {
     text-align: right;
     margin-top: 50px;
+    width: 30%;
   }
 
   .image {
@@ -1012,6 +1013,7 @@ span {
   .image1 {
     margin-right: 3rem;
     transition: width 2s, height 2s, transform 2s;
+    width: 70%;
   }
 
   .image1:hover {
@@ -1177,5 +1179,21 @@ span {
     display: flex;
     justify-content: center;
   }
+
+  .list-1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-1 li {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    border-left: 1px solid #fff;
+    width: 50px;
+
+  }
+
 
 }
