@@ -269,12 +269,13 @@ ul {
 
 .btn-4 {
   background: #5e42d7;
-  width: 80px;
+  width: 120px;
   height: 30px;
   margin-top: 10px;
   color: #fff;
   border: none;
   margin-left: 15px;
+  font-size: 16px;
 }
 
 .work {
@@ -317,10 +318,6 @@ h4 {
   justify-content: center;
   margin-left: 15px;
   margin-top: 15px;
-}
-
-.list-1 {
-  margin-top: -25px;
 }
 
 .list li {
@@ -640,7 +637,7 @@ span {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: -13px;
+  margin-top: 3px;
 }
 
 .see-live {
@@ -699,8 +696,8 @@ span {
   }
 
   #popup-images {
-    width: 40%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
   }
 
   .background-image .title {
@@ -1108,20 +1105,23 @@ span {
     visibility: hidden;
     background: #191765;
     width: 50%;
-    height: 70%;
+    height: 100%;
     position: fixed;
     z-index: 2;
     border: 1px solid #fff;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
   .btn-4 {
     background: #5e42d7;
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 60px;
     margin-top: 10px;
     color: #fff;
     border: none;
-    margin-left: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 16px;
   }
 
   .close-pop-up {
@@ -1139,6 +1139,7 @@ span {
     position: center;
     text-align: center;
     width: 100%;
+    margin-top: 20px;
   }
 
   .see-more {
@@ -1148,4 +1149,33 @@ span {
     height: 50px;
     width: 100px;
   }
+
+  .pop-container {
+    position: center;
+    margin-left: 230px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  #pargaraph {
+    font-size: 16px;
+    line-height: 30px;
+    width: 300px;
+  }
+
+  #popup-content {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #title-1 {
+    font-size: 40px;
+  }
+
+  .title-2 {
+    display: flex;
+    justify-content: center;
+  }
+
 }
