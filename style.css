@@ -117,7 +117,9 @@ body {
 }
 
 #popup-images {
-  width: 80vw;
+  width: 60vw;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .title {
@@ -252,7 +254,6 @@ ul {
 
 .image-white {
   text-align: center;
-  width: 50%;
 }
 
 .image-arrow {
@@ -301,6 +302,11 @@ h4 {
   font-family: Roboto, sans-serif;
   text-align: center;
   margin-top: 50px;
+}
+
+.popup-btn a {
+  text-decoration: none;
+  margin-top: 20px;
 }
 
 .placeholder {
