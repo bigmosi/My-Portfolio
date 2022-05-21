@@ -351,6 +351,17 @@ h4 {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
+.list-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.list-2 li {
+  margin: 10px;
+  color: green;
+}
+
+
 .form-input {
   text-align: center;
 }

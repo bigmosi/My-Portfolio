@@ -159,7 +159,7 @@ document.getElementById('body').onload = () => {
               </div>
 
               <div>
-                  <ul class="list">
+                  <ul class="list-2">
                       <li>${project.technologies.css}<li>
                       <li>${project.technologies.html}</li>
                       <li>${project.technologies.bootstrap}</li>
