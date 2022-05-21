@@ -333,6 +333,11 @@ h4 {
   border-right: none;
 }
 
+.image1 {
+  width: 90%;
+  height: 80%;
+}
+
 .btn {
   width: 10rem;
   height: 48px;
@@ -1012,14 +1017,13 @@ span {
 
   .image1 {
     margin-right: 3rem;
-    transition: width 2s, height 2s, transform 2s;
     width: 70%;
+    cursor: pointer;
   }
 
   .image1:hover {
-    width: 70%;
-    height: 70%;
-    transform: rotate(180deg);
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
   }
 
   .image3 {
@@ -1193,6 +1197,16 @@ span {
     border-left: 1px solid #fff;
     width: 50px;
 
+  }
+
+  .list-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-2 li {
+     margin: 10px;
+     color: #5e42d7;
   }
 
 
