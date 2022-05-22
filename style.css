@@ -680,6 +680,7 @@ span {
 
 @media screen and (min-width: 768px) {
   body {
+    background-color: lightgray;
     height: 100%;
   }
 
@@ -1030,10 +1031,6 @@ span {
     text-align: center;
     color: #9390ff;
     margin-top: 40px;
-  }
-
-  .heading {
-    display: none;
   }
 
   .image1 {
