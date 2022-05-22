@@ -76,6 +76,9 @@ let Data = [
    button: {
      live: 'See live',
      source: 'See source'
+   },
+   back: {
+     imageleft: 'image-back',
    }
   },
   {
@@ -96,7 +99,9 @@ let Data = [
     style: {
       style1: 'section-2',
     },
-    imageleft: 'image-left',
+    back: {
+      imageleft: 'image-left'
+    }
   },
   {
     id: 3,
@@ -115,6 +120,9 @@ let Data = [
     btn: 'See Project',
     style: {
       style1: 'section-1',
+    },
+    back: {
+      imageleft: 'image-back',
     }
 
   },
@@ -136,7 +144,10 @@ let Data = [
     style: {
       style1: 'section-2',
     },
-    imageleft: 'image-left',
+    back: {
+      imageleft: 'image-left',
+    },
+
   }
 ]
 
@@ -146,7 +157,7 @@ document.getElementById('body').onload = () => {
   Data.forEach((project, index) => {
     console.log(project);
     gridContainer.innerHTML += `
-        <div class="${project.style.style1} image-back">
+        <div class="${project.style.style1} ${project.back.imageleft}">
             <div class="placeholder">
               <img src="${project.image.image1}" class="image1" alt="">
             </div>
