@@ -65,5 +65,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 
 ## Link to URL on browser
--URL:[browser](https://bigmosi.github.io/Portfoli-mobile-view/)
+-URL:[browser]( https://bigmosi.github.io/My-Portfolio/)
 
