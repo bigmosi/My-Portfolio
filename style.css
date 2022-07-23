@@ -251,11 +251,25 @@ ul {
 }
 
 .see-more {
-  background: #5e42d7;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  border-radius: 20px;
+  font-family: "Mulish", sans-serif;
   border: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 700;
+  color: #000;
+  background: #ffff;
+  width: 150px;
+  cursor: pointer;
+}
+
+.see-more:hover {
+  cursor: pointer;
   color: #fff;
-  height: 50px;
-  width: 100px;
+  outline: thin solid #fff;
+  background-image: url("assets/desktop-image/main-bg.png");
 }
 
 #popup-content {
@@ -286,14 +300,20 @@ ul {
 }
 
 .btn-4 {
-  background: #5e42d7;
-  width: 120px;
-  height: 30px;
-  margin-top: 10px;
-  color: #fff;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  border-radius: 20px;
+  font-family: "Mulish", sans-serif;
   border: none;
-  margin-left: 15px;
-  font-size: 16px;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 700;
+  color: #000;
+  background: #ffff;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 75px;
+  text-align: center;
 }
 
 .work {
@@ -464,7 +484,6 @@ textarea {
 .btn-1 {
   -ms-flex-item-align: start;
   align-self: flex-start;
-  width: 20%;
   border-radius: 20px;
   font-family: "Mulish", sans-serif;
   border: none;
@@ -473,6 +492,7 @@ textarea {
   font-weight: 700;
   color: #000;
   background: #ffff;
+  width: 150px;
 }
 
 .btn-1:hover {
@@ -1193,17 +1213,27 @@ span {
   }
 
   .btn-4 {
-    background: #5e42d7;
-    width: 120px;
-    height: 60px;
-    margin-top: 10px;
-    color: #fff;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    border-radius: 20px;
+    font-family: "Mulish", sans-serif;
     border: none;
-    margin-left: 50px;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: 700;
+    color: #000;
+    background: #ffff;
+    width: 150px;
     cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 15px;
+    margin-left: 75px;
+    text-align: center
+  }
+
+  .btn-4:hover {
+    cursor: pointer;
+    color: #fff;
+    outline: thin solid #fff;
+    background-image: url("assets/desktop-image/main-bg.png");
   }
 
   .close-pop-up {
@@ -1225,11 +1255,25 @@ span {
   }
 
   .see-more {
-    background: #5e42d7;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    border-radius: 20px;
+    font-family: "Mulish", sans-serif;
     border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: 700;
+    color: #000;
+    background: #ffff;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .see-more:hover {
+    cursor: pointer;
     color: #fff;
-    height: 50px;
-    width: 100px;
+    outline: thin solid #fff;
+    background-image: url("assets/desktop-image/main-bg.png");
   }
 
   .pop-container {
