@@ -167,6 +167,37 @@ p {
   margin-right: 20px;
 }
 
+.typed-out-1{
+  overflow: hidden;
+  white-space: nowrap;
+  animation:
+          typing 10s forwards;
+  font-size: 1.6rem;
+  width: 0;
+  position: center;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.typed-out-2{
+  overflow: hidden;
+  white-space: nowrap;
+  animation:
+          typing 10s forwards 1 4.5s;
+  font-size: 1.6rem;
+  width: 0;
+  position: center;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
 .skill {
   align-items: center;
   background-image: url("assets/images/Ellipse.svg");
@@ -1337,8 +1368,6 @@ span {
     to { width: 100% }
   }
 
-}
-
   .typed-out{
     overflow: hidden;
     white-space: nowrap;
@@ -1351,4 +1380,6 @@ span {
     from { width: 0 }
     to { width: 100% }
   }
+
+}
 
