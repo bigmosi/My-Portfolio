@@ -8,11 +8,21 @@
 
 body {
   padding-top: 0;
-  background: #191765;
 }
 
+.diff {
+  background-image: url("assets/images/header-bg.png");
+  padding-bottom: 150px;
+  padding-top: 10px;
+}
+
+
 .main-container {
-  background: #191765;
+  background-image: url("assets/desktop-image/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -34,8 +44,14 @@ body {
   margin-top: 8px;
 }
 
+.my-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: fixed;
+}
+
 .logo-1:hover {
-  animation: rotate 1s linear;
   text-decoration: none;
 }
 
@@ -524,7 +540,7 @@ textarea {
   background-color: #191765;
   overflow-y: hidden;
   transition: 0.5s;
-  background-image: url("assets/images/shape mobile menu-2.svg"), url("assets/images/shape mobile menu-1.svg");
+  background-image: url("assets/images/shape mobile menu-2.svg"), url("assets/images/shape mobile menu-1.svg"), url("assets/images/header-bg.png");
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
 }
@@ -685,10 +701,14 @@ span {
   }
 
   .main-container {
-    background: #191765;
-    width: 100%;
+    background-image: url("assets/desktop-image/main-bg.png");
+    margin-left: 110px;
+    margin-right: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: flex-start;
   }
-
   .mobile_menu {
     display: none;
   }
@@ -733,6 +753,21 @@ span {
     background-image: none;
   }
 
+  .typed-out{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
   .main-lang {
     display: flex;
     justify-content: center;
@@ -1127,7 +1162,7 @@ span {
 
   #popping {
     visibility: hidden;
-    background: #191765;
+    background-image: url("assets/desktop-image/main-bg.png");
     width: 50%;
     height: 80%;
     position: fixed;
@@ -1229,5 +1264,16 @@ span {
      color: #5e42d7;
   }
 
+  .diff {
+    background-image: url("assets/images/header-bg.png");
+    padding-bottom: 150px;
+    padding-top: 10px;
+  }
 
+  .my-image {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: fixed;
+  }
 }
