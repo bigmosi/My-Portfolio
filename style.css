@@ -394,11 +394,19 @@ h4 {
   margin-top: 10px;
   padding: 10px;
   background: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 20px;
 }
 
 textarea {
   height: 100px;
   background: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 20px;
 }
 
 .textarea {
