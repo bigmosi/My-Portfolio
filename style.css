@@ -786,21 +786,6 @@ span {
     background-image: none;
   }
 
-  .typed-out{
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
-    font-size: 1.6rem;
-    width: 0;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blinking {
-    from { border-color: transparent }
-    to { border-color: orange; }
-  }
   .main-lang {
     display: flex;
     justify-content: center;
@@ -1015,10 +1000,6 @@ span {
     display: flex;
     justify-content: center;
     text-align: center;
-    animation-duration: 3s;
-    animation-name: bounce;
-    animation-iteration-count: revert;
-    animation-direction: alternate;
   }
 
   @keyframes bounce {
@@ -1341,4 +1322,34 @@ span {
     border-radius: 50%;
     position: fixed;
   }
+
+  .typed-out-1{
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+            typing 10s forwards;
+    font-size: 1.6rem;
+    width: 0;
+    position: center;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+}
+
+  .typed-out{
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+            typing 10s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
 }
